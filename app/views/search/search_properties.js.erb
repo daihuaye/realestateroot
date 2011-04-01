@@ -1,0 +1,42 @@
+if($("#site_nav").is(".removed"))
+	$("#site_nav").removeClass("removed");
+	
+if(<%= !@search_trulia_text.blank? %>) {
+	$("#trulia").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.trulia.com/<%= @search_trulia_text %>'></iframe>");
+	updateNav("trulia");
+}
+	
+if(<%= !@search_zillow_text.blank? %>) {
+	$("#zillow").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.zillow.com/homes/<%= @search_zillow_text %>/'></iframe>");
+	updateNav("zillow");
+}
+	
+
+if(<%= !@search_realtor_text.blank? %>) {
+	$("#realtor").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.realtor.com/<%= @search_realtor_text %>'></iframe>");
+	updateNav("realtor");
+}
+	
+
+if(<%= !@search_yahoo_text.blank? %>) {
+	$("#yahoo").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://realestate.yahoo.com/<%= @search_yahoo_text %>'></iframe>");
+	updateNav("yahoo");
+}
+	
+
+if(<%= !@search_century21_text.blank? %>) {
+	$("#century21").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.century21.com/<%= @search_century21_text %>'></iframe>");
+	updateNav("century21");
+}
+	
+
+if(<%= !@search_homes_text.blank? %>) {
+	$("#homes").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.homes.com/<%= @search_homes_text %>'></iframe>");
+	updateNav("homes");
+}
+	
+	
+function updateNav(site) {
+	$("a."+site+">.hover").removeClass("hover");
+	$("a."+site).prepend("<span class='active'></span>");
+}

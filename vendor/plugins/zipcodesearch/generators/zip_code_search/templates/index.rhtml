@@ -1,0 +1,97 @@
+<html>
+<head>
+        <title>Example Zip Code Search</title>
+<style type="text/css">
+body { 
+      font: 0.9em Arial, Helvetica, sans-serif;
+}
+   h1 { font: 1.2em Arial, Helvetica, sans-serif; }
+   input.txt { color: #00008b; 
+               background-color: #c4f1c0; 
+               border: 1px inset #00008B;
+               width: 100px;
+   }
+   input.btn {
+      color: #00008b;
+      background-color: #c4f1c0;
+      border: 1px outset #00008B;
+   }
+   form p {
+      clear: left;
+      margin: 0;
+      padding: 0;
+      padding-top: 5px;
+   }
+   form p label {
+      float: left;
+      width: 180px;
+      font: bold 0.9em Arial, Helvetica, sans-serif;
+   }
+   table {
+		margin-left: 30px;
+		border: 1px solid #D6DDE6;
+		border-collapse: collapse;
+   }
+   td {
+		border: 1px solid #6b9c0d;
+		text-align: center;
+		padding: 4px;
+		font-size: 10px;
+
+	}
+    th {
+		border: 1px solid #6b9c0d;
+        background-color: #c4f1c0;
+		color: #000;
+		font-weight: bold;
+		padding: 5px;
+		font-size: 12px;
+	}
+
+   </style>
+   </head>
+   <body>
+   <h1> Example Zip Code Search </h1>
+
+   <%%= form_tag({:controller => "<%= controller_file_name %>", :action => "index"}) %>
+
+   <p> This is an example form that will let you search for all zip codes within a
+   given radius of a base zip code.  See <a href="http://zipcodesearch.rubyforge.org">http://zipcodesearch.rubyforge.org</a>
+   for more.</p>
+
+   <p>
+      <label for="zip">Base Zip Code:</label> <%%= text_field_tag :zip, nil, :class => 'txt' %></p>
+   </p>
+
+   <p><label for="radius">Search Radius:</label>
+   <%%= select_tag('radius', options_for_select({'1 mile' => 1, '5 miles' => 5, '10 miles' => 10, '25 miles' => 25, '50 miles' => 50, '100 miles' => 100}), :class => 'txt') %>
+   </p>
+
+   <p>
+      <%%= submit_tag "Find Zips!", :class => 'btn' %>
+   </p>
+
+<%%= end_form_tag %>
+
+<%% if @results %>
+   Here are the zip codes we found:
+      <table>
+	<tr>
+		<th>City</th>
+		<th>State</th>
+		<th>Zip</th>
+		<th>Distance</th>
+	</tr>
+         <%% @results.each do |zip| %>
+            <tr><td><%%= zip.city %></td>
+                <td><%%= zip.state %></td>
+                <td><%%= zip.zip %></td> 
+                <td><%%= sprintf("%.2f", zip.distance_to_search_zip('miles')) %> </td> 
+           </tr>
+         <%% end %>
+      </table>
+
+<%% end %>
+</body>
+</html>
+

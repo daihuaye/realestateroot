@@ -1,0 +1,21 @@
+switch("<%= @site %>")
+{
+	case "trulia": 
+		$("#trulia").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.trulia.com/<%= @search_trulia_text %>'></iframe>");
+		break;
+	case "zillow": 
+		$("#zillow").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.zillow.com/homes/<%= @search_zillow_text %>'></iframe>");
+		break;
+	case "homes": 
+		$("#homes").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.homes.com/<%= @search_homes_text %>'></iframe>");
+		break;
+	case "yahoo": 
+		$("#yahoo").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.realestate.yahoo.com/<%= @search_yahoo_text %>'></iframe>");
+		break;
+	case "realtor": 
+		$("#realtor").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.realtor.com/<%= @search_realtor_text %>'></iframe>");
+		break;
+	case "century21": 
+		$("#century21").removeClass("removed").html("<iframe frameborder='0' class='iFrame' src='http://www.century21.com/<%= @search_century21_text %>'></iframe>");
+		break;
+}

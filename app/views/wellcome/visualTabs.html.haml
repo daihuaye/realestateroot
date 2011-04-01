@@ -1,0 +1,124 @@
+!!! Strict
+%html{html_attrs}
+  
+	%head
+		%title
+			= h("Visual Tabs Log")
+		%meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=UTF-8"}/
+		%meta{"http-equiv" => "X-UA-Compatible", :content => "chrome=1"}
+		%meta{:content=>"ep7phYOL-Y7q-K9ucZrDZPQIQkOXwiXSLufjpNGFwEU", :name => "google-site-verification"}/
+		= stylesheet 'visual_tabs'
+		%link{:rel=>"stylesheet", :href=>"stylesheets/blueprint/screen.css", :media=>"screen, projection", :type=>"text/css"}
+		%link{:rel=>"stylesheet", :href=>"stylesheets/blueprint/print.css", :media=>"print", :type=>"text/css"}
+		%script{:type => "text/javascript",
+						:src => "javascripts/jquery.js"}
+		= yield(:head)
+		
+	%body
+		#main.container
+			.span-24.title
+				.span-15
+					#visual_tab_logo.span-2.last
+						=image_tag "/images/new_layout/icon59.png"
+					%h1
+						%strong Visual Tabs Update Log
+			.span-24
+				%div{:style => "height: 20px; margin-bottom: 10px; color: blue; text-align: center; font-weight: blod;"}
+					.span-5#VBack=link_to "Back to Chrome Extensions", "https://chrome.google.com/extensions/detail/gmpnbibondcjmkmmdmdjahgoglpendge/publish-accepted"
+					.span-5=link_to "Give Me Suggestion", "mailto:daifu_ye@yahoo.com"
+					.span-5.last=link_to "Visit RealEstateRoot.com", "/"
+			.span-24.content
+				%ul
+					v1.1 on Feb 25th 2010: 
+					%li
+						Customizable background color
+					%li
+						Accelerate the speed of showing the thumbnails
+
+				%ul
+					v1.1.2 on Feb 26th 2010:
+					%li
+						Fix bugs in displaying tabs.
+
+				%ul
+					v1.1.3 on Feb 27th 2010
+					%li
+						Fix bug on the displacement of tabs' thumbnails when launching the Visual Tabs at first time.
+
+				%ul
+					v1.2 on Feb 28th 2010
+					%li
+						Redesign the title, color scheme and shorten the height of the popup window.
+
+				%ul
+					v1.2.4 on Mar 2nd 2010
+					%li
+						Fix bugs in background color.
+					%li
+						Enlarge the popup window size
+					%li
+						Update the display of thumbnails.
+					%li
+						Update the font for the title.
+
+				%ul
+					v1.3 on Mar 4th 2010
+					%li
+						Add keyboard shortcut within popup window: using arrows to navigate tabs, space bar or enter to select the tab.
+					%li
+						Update a new fancy logo
+
+				%ul
+					v1.3.7 on Mar 6th 2010
+					%li
+						Add the functionality of deleting tabs within popup window to the extension
+					%li
+						Fix critical bugs when opening too many tabs.
+
+				%ul
+					v1.4 on Mar 9th 2010
+					%li
+						Enlarge the thumbnails of the tabs
+					%li
+						Move the close button on the upper right of the thumbnail
+	
+				%ul
+					v1.4.2 Mar 9th 2010
+					%li
+						Fix bugs by changing algorithm to calculate the images' sizes, and the position of the close button
+					%li
+						All the thumbnails will be at the perfect size and the close buttons will be at the nice spot
+					
+				%ul
+					v1.4.3 Mar 9th 2010
+					%li
+						Fix error while deleting tabs within popup window
+				%ul
+					v1.5.1 Mar 11th 2010
+					%li
+						Add options page for selecting reflections and fadein effect to customize the display of tabs
+					%li
+						Fix content-script error
+		.clear
+		:javascript
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		:javascript
+			try {
+				var pageTracker = _gat._getTracker("UA-12233086-1");
+				pageTracker._trackPageview();
+			} catch(err) {}
+		:javascript
+			var uservoiceOptions = {
+				/* required */
+				key: 'realestateroot',
+				host: 'realestateroot.uservoice.com', 
+				forum: '37086',
+				showTab: true,  
+				/* optional */
+				alignment: 'left',
+				background_color:'blue', 
+				text_color: 'white',
+				hover_color: '#06C',
+				lang: 'en'
+			}

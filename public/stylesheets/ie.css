@@ -1,0 +1,25 @@
+.ui-helper-clearfix {
+  display: inline-block; }
+
+#settings {
+  padding: 0 1em !important; }
+
+.logo_left {
+  width: 180px; }
+
+.search_bar_right {
+  width: 818px !important; }
+
+#site_nav ul li {
+  width: 160px !important; }
+  #site_nav ul li span {
+    float: right !important; }
+#site_nav ul #donate {
+  width: 100px !important;
+  margin: 5px 0 0 0 !important;
+  padding: 0 !important;
+  height: 35px !important; }
+
+.set_opacity {
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70) !important;
+  filter: alpha(opacity=70) !important; }

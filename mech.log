@@ -1,0 +1,738 @@
+# Logfile created on Sat Jan 02 14:10:37 -0800 2010 by /
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3030 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:09:14 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3030
+response-header: set-cookie => PREF=ID=f34a926d48f416fe:TM=1262498954:LM=1262498954:S=9ZvvOLPdmfhtynIO; expires=Tue, 03-Jan-2012 06:09:14 GMT; path=/; domain=.google.com, NID=30=W-V5ZGs_q-ZNx-YLkuikJtW-kAQcAoANnoZ9FVt1d3JH08Ad954VowrtiLq7n4xSc-S8kXVk5LqcWQ86aez1JjrXY7QPONwAEhJvXF-nxrNLUUoCRI5RvyO-gnGZF644; expires=Mon, 05-Jul-2010 06:09:14 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=f34a926d48f416fe:TM=1262498954:LM=1262498954:S=9ZvvOLPdmfhtynIO
+saved cookie: NID=30=W-V5ZGs_q-ZNx-YLkuikJtW-kAQcAoANnoZ9FVt1d3JH08Ad954VowrtiLq7n4xSc-S8kXVk5LqcWQ86aez1JjrXY7QPONwAEhJvXF-nxrNLUUoCRI5RvyO-gnGZF644
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=f34a926d48f416fe:TM=1262498954:LM=1262498954:S=9ZvvOLPdmfhtynIO; NID=30=W-V5ZGs_q-ZNx-YLkuikJtW-kAQcAoANnoZ9FVt1d3JH08Ad954VowrtiLq7n4xSc-S8kXVk5LqcWQ86aez1JjrXY7QPONwAEhJvXF-nxrNLUUoCRI5RvyO-gnGZF644
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 1601 bytes
+Read 2625 bytes
+Read 3443 bytes
+Read 4461 bytes
+Read 5485 bytes
+Read 6273 bytes
+Read 7297 bytes
+Read 7799 bytes
+Read 8818 bytes
+Read 9212 bytes
+Read 10236 bytes
+Read 10630 bytes
+Read 11654 bytes
+Read 11827 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:09:15 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=f34a926d48f416fe:U=5d4e5f3b93c1eee5:TM=1262498954:LM=1262498955:S=16DfcWMXeKC6nS-D; expires=Tue, 03-Jan-2012 06:09:15 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=f34a926d48f416fe:U=5d4e5f3b93c1eee5:TM=1262498954:LM=1262498955:S=16DfcWMXeKC6nS-D
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3846 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:10:23 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3846
+response-header: set-cookie => PREF=ID=0d639cf8e979789e:TM=1262499023:LM=1262499023:S=RCCFzUIYsyewey4N; expires=Tue, 03-Jan-2012 06:10:23 GMT; path=/; domain=.google.com, NID=30=awb82xhsimGTDYIogK9pssFtMUiOaCjTaPCkg8SkkxQMbOUR48I991djw4kISffZ09vhXosIxspk92h9Iw0Er4u-SJ1ARVMSn-0idLf3GFO91LcTyQkg54dnt_uT4Cv3; expires=Mon, 05-Jul-2010 06:10:24 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=0d639cf8e979789e:TM=1262499023:LM=1262499023:S=RCCFzUIYsyewey4N
+saved cookie: NID=30=awb82xhsimGTDYIogK9pssFtMUiOaCjTaPCkg8SkkxQMbOUR48I991djw4kISffZ09vhXosIxspk92h9Iw0Er4u-SJ1ARVMSn-0idLf3GFO91LcTyQkg54dnt_uT4Cv3
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=0d639cf8e979789e:TM=1262499023:LM=1262499023:S=RCCFzUIYsyewey4N; NID=30=awb82xhsimGTDYIogK9pssFtMUiOaCjTaPCkg8SkkxQMbOUR48I991djw4kISffZ09vhXosIxspk92h9Iw0Er4u-SJ1ARVMSn-0idLf3GFO91LcTyQkg54dnt_uT4Cv3
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 971 bytes
+Read 1995 bytes
+Read 3019 bytes
+Read 3452 bytes
+Read 4470 bytes
+Read 4864 bytes
+Read 5888 bytes
+Read 6912 bytes
+Read 7542 bytes
+Read 7799 bytes
+Read 8559 bytes
+Read 9212 bytes
+Read 10236 bytes
+Read 10630 bytes
+Read 11654 bytes
+Read 11828 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:10:24 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=0d639cf8e979789e:U=ac2b9a13a127df9b:TM=1262499023:LM=1262499024:S=8AWZgWBEHTDwOf-y; expires=Tue, 03-Jan-2012 06:10:24 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=0d639cf8e979789e:U=ac2b9a13a127df9b:TM=1262499023:LM=1262499024:S=8AWZgWBEHTDwOf-y
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 1446 bytes
+Read 2234 bytes
+Read 3258 bytes
+Read 3502 bytes
+Read 3849 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:11:45 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3849
+response-header: set-cookie => PREF=ID=fd7dbc83c7a224d2:TM=1262499105:LM=1262499105:S=et4C-QeYdyfYRtG2; expires=Tue, 03-Jan-2012 06:11:45 GMT; path=/; domain=.google.com, NID=30=RYPR3LQYZOm7jVKXpxdVxn_R51emYy2j0R5EkYmgmoh-DRDg_MgLFrV5dPcME88eniHvZT78n0CXnRUFrq_FpxuzV_WFZvjeRjqUx7Nrdb6BTLGERzfszaU6pcn0J1q0; expires=Mon, 05-Jul-2010 06:11:45 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=fd7dbc83c7a224d2:TM=1262499105:LM=1262499105:S=et4C-QeYdyfYRtG2
+saved cookie: NID=30=RYPR3LQYZOm7jVKXpxdVxn_R51emYy2j0R5EkYmgmoh-DRDg_MgLFrV5dPcME88eniHvZT78n0CXnRUFrq_FpxuzV_WFZvjeRjqUx7Nrdb6BTLGERzfszaU6pcn0J1q0
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=fd7dbc83c7a224d2:TM=1262499105:LM=1262499105:S=et4C-QeYdyfYRtG2; NID=30=RYPR3LQYZOm7jVKXpxdVxn_R51emYy2j0R5EkYmgmoh-DRDg_MgLFrV5dPcME88eniHvZT78n0CXnRUFrq_FpxuzV_WFZvjeRjqUx7Nrdb6BTLGERzfszaU6pcn0J1q0
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 971 bytes
+Read 1995 bytes
+Read 3019 bytes
+Read 3447 bytes
+Read 4465 bytes
+Read 5489 bytes
+Read 6277 bytes
+Read 7301 bytes
+Read 7807 bytes
+Read 8826 bytes
+Read 9850 bytes
+Read 10638 bytes
+Read 11662 bytes
+Read 11837 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:11:45 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=fd7dbc83c7a224d2:U=64ee77cf434e9ffe:TM=1262499105:LM=1262499105:S=9_yxEW7KA7i7ZDvQ; expires=Tue, 03-Jan-2012 06:11:45 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=fd7dbc83c7a224d2:U=64ee77cf434e9ffe:TM=1262499105:LM=1262499105:S=9_yxEW7KA7i7ZDvQ
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3791 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:12:04 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3791
+response-header: set-cookie => PREF=ID=8dcea9b6886e4cde:TM=1262499124:LM=1262499124:S=5XZqWHSDifmtBr9T; expires=Tue, 03-Jan-2012 06:12:04 GMT; path=/; domain=.google.com, NID=30=OlflKYYqdH8BcqdkUMGoHoL-dHo5VAQN6Zw_1k2UPytm_P2RO2Nx6TRtPwqkFDsspvbQs0NsKdbpHrdgCdhZM5dUpe1jdrT6LRjRVKhqLQfPTnIIpmM3BbNPccZbL3pH; expires=Mon, 05-Jul-2010 06:12:04 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=8dcea9b6886e4cde:TM=1262499124:LM=1262499124:S=5XZqWHSDifmtBr9T
+saved cookie: NID=30=OlflKYYqdH8BcqdkUMGoHoL-dHo5VAQN6Zw_1k2UPytm_P2RO2Nx6TRtPwqkFDsspvbQs0NsKdbpHrdgCdhZM5dUpe1jdrT6LRjRVKhqLQfPTnIIpmM3BbNPccZbL3pH
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=8dcea9b6886e4cde:TM=1262499124:LM=1262499124:S=5XZqWHSDifmtBr9T; NID=30=OlflKYYqdH8BcqdkUMGoHoL-dHo5VAQN6Zw_1k2UPytm_P2RO2Nx6TRtPwqkFDsspvbQs0NsKdbpHrdgCdhZM5dUpe1jdrT6LRjRVKhqLQfPTnIIpmM3BbNPccZbL3pH
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 971 bytes
+Read 1995 bytes
+Read 3019 bytes
+Read 3436 bytes
+Read 4454 bytes
+Read 5478 bytes
+Read 6266 bytes
+Read 7290 bytes
+Read 7784 bytes
+Read 8803 bytes
+Read 9197 bytes
+Read 10221 bytes
+Read 11245 bytes
+Read 11814 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:12:04 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=8dcea9b6886e4cde:U=d80861ab5e0bbf60:TM=1262499124:LM=1262499124:S=APqXZwO8YP0saXM_; expires=Tue, 03-Jan-2012 06:12:04 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=8dcea9b6886e4cde:U=d80861ab5e0bbf60:TM=1262499124:LM=1262499124:S=APqXZwO8YP0saXM_
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 1446 bytes
+Read 2234 bytes
+Read 3258 bytes
+Read 3835 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:12:20 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3835
+response-header: set-cookie => PREF=ID=57a4ebe5c79b3a8f:TM=1262499140:LM=1262499140:S=N2K-C-sXMUysrg_v; expires=Tue, 03-Jan-2012 06:12:20 GMT; path=/; domain=.google.com, NID=30=BskM1CXa5-cGhX9mLN0sdQtLWfsiQdsN3Le8VQptrMfL-1m0dn6UehpLM5CGoL-hnReIOvs3DiT5YgD2RGMHVLQXgAuzoVgf0eGXnaO3TencHAhKr4OySL9rmiYeUvMl; expires=Mon, 05-Jul-2010 06:12:20 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=57a4ebe5c79b3a8f:TM=1262499140:LM=1262499140:S=N2K-C-sXMUysrg_v
+saved cookie: NID=30=BskM1CXa5-cGhX9mLN0sdQtLWfsiQdsN3Le8VQptrMfL-1m0dn6UehpLM5CGoL-hnReIOvs3DiT5YgD2RGMHVLQXgAuzoVgf0eGXnaO3TencHAhKr4OySL9rmiYeUvMl
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=57a4ebe5c79b3a8f:TM=1262499140:LM=1262499140:S=N2K-C-sXMUysrg_v; NID=30=BskM1CXa5-cGhX9mLN0sdQtLWfsiQdsN3Le8VQptrMfL-1m0dn6UehpLM5CGoL-hnReIOvs3DiT5YgD2RGMHVLQXgAuzoVgf0eGXnaO3TencHAhKr4OySL9rmiYeUvMl
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 971 bytes
+Read 1995 bytes
+Read 3019 bytes
+Read 3443 bytes
+Read 4461 bytes
+Read 4855 bytes
+Read 5879 bytes
+Read 6903 bytes
+Read 7533 bytes
+Read 7793 bytes
+Read 8550 bytes
+Read 8944 bytes
+Read 9968 bytes
+Read 10992 bytes
+Read 11821 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:12:20 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=57a4ebe5c79b3a8f:U=bf25644ab3c6f3f3:TM=1262499140:LM=1262499140:S=dA-HTxFHKDZGEJAG; expires=Tue, 03-Jan-2012 06:12:20 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=57a4ebe5c79b3a8f:U=bf25644ab3c6f3f3:TM=1262499140:LM=1262499140:S=dA-HTxFHKDZGEJAG
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3798 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:13:16 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3798
+response-header: set-cookie => PREF=ID=305a6cb31733ae12:TM=1262499196:LM=1262499196:S=cmpnzdA2Z6BXha7T; expires=Tue, 03-Jan-2012 06:13:16 GMT; path=/; domain=.google.com, NID=30=zaxV8c6Z90bqnsYFonMBOB9aMOqpByLZYL3BiTxeFyD6vR8WDeFyTUPb3vKXiL4KKu67oIk234JqMWG9bPLgnMEm65oIL0lbU8NQ68kJrT8KpyGTq9IytU2_zaooga6m; expires=Mon, 05-Jul-2010 06:13:16 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=305a6cb31733ae12:TM=1262499196:LM=1262499196:S=cmpnzdA2Z6BXha7T
+saved cookie: NID=30=zaxV8c6Z90bqnsYFonMBOB9aMOqpByLZYL3BiTxeFyD6vR8WDeFyTUPb3vKXiL4KKu67oIk234JqMWG9bPLgnMEm65oIL0lbU8NQ68kJrT8KpyGTq9IytU2_zaooga6m
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=305a6cb31733ae12:TM=1262499196:LM=1262499196:S=cmpnzdA2Z6BXha7T; NID=30=zaxV8c6Z90bqnsYFonMBOB9aMOqpByLZYL3BiTxeFyD6vR8WDeFyTUPb3vKXiL4KKu67oIk234JqMWG9bPLgnMEm65oIL0lbU8NQ68kJrT8KpyGTq9IytU2_zaooga6m
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 1601 bytes
+Read 2389 bytes
+Read 3413 bytes
+Read 3443 bytes
+Read 4461 bytes
+Read 4855 bytes
+Read 5879 bytes
+Read 6273 bytes
+Read 7297 bytes
+Read 7792 bytes
+Read 8811 bytes
+Read 9205 bytes
+Read 10229 bytes
+Read 11253 bytes
+Read 11821 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:13:16 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=305a6cb31733ae12:U=54e30215413cb171:TM=1262499196:LM=1262499196:S=UupNaxoRz5gafBv3; expires=Tue, 03-Jan-2012 06:13:16 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=305a6cb31733ae12:U=54e30215413cb171:TM=1262499196:LM=1262499196:S=UupNaxoRz5gafBv3
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3841 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:14:57 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3841
+response-header: set-cookie => PREF=ID=d98bd73f5d0ce446:TM=1262499297:LM=1262499297:S=1RNGUa2ZZdmGgS5J; expires=Tue, 03-Jan-2012 06:14:57 GMT; path=/; domain=.google.com, NID=30=DBnhxtipN9UV_w9Afjh1jx-TeL6c5UWOnvdJba-rWxTN-Kml6EjJw4yhTw8vycX4ksHQAe9DGhxTcGGFSECf9PHF97svrhjuuJlLIf8BWz9M1UAhkmD6ZJWOjFUv9p3F; expires=Mon, 05-Jul-2010 06:14:57 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=d98bd73f5d0ce446:TM=1262499297:LM=1262499297:S=1RNGUa2ZZdmGgS5J
+saved cookie: NID=30=DBnhxtipN9UV_w9Afjh1jx-TeL6c5UWOnvdJba-rWxTN-Kml6EjJw4yhTw8vycX4ksHQAe9DGhxTcGGFSECf9PHF97svrhjuuJlLIf8BWz9M1UAhkmD6ZJWOjFUv9p3F
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=d98bd73f5d0ce446:TM=1262499297:LM=1262499297:S=1RNGUa2ZZdmGgS5J; NID=30=DBnhxtipN9UV_w9Afjh1jx-TeL6c5UWOnvdJba-rWxTN-Kml6EjJw4yhTw8vycX4ksHQAe9DGhxTcGGFSECf9PHF97svrhjuuJlLIf8BWz9M1UAhkmD6ZJWOjFUv9p3F
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 1601 bytes
+Read 2389 bytes
+Read 3413 bytes
+Read 3438 bytes
+Read 4456 bytes
+Read 4850 bytes
+Read 5874 bytes
+Read 6898 bytes
+Read 7528 bytes
+Read 7783 bytes
+Read 8545 bytes
+Read 9569 bytes
+Read 10357 bytes
+Read 11381 bytes
+Read 11811 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:14:57 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=d98bd73f5d0ce446:U=4010281fdb0239d2:TM=1262499297:LM=1262499297:S=yhFaZ_NLGmbC8y1O; expires=Tue, 03-Jan-2012 06:14:57 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=d98bd73f5d0ce446:U=4010281fdb0239d2:TM=1262499297:LM=1262499297:S=yhFaZ_NLGmbC8y1O
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2234 bytes
+Read 3258 bytes
+Read 3846 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:15:54 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3846
+response-header: set-cookie => PREF=ID=caefaaa5111365a9:TM=1262499354:LM=1262499354:S=N8A9rxJ85Y51RChl; expires=Tue, 03-Jan-2012 06:15:54 GMT; path=/; domain=.google.com, NID=30=Pyh275uJMkFAz2JYbAE7ZXFqWSBbA8FjvJl-bMAlm6Vg_lbZ6vgzMI64zaQSuEhjS-MFZfSFJ0-DpgmTpyQvGDn8SSr7uLh1iw__Q472F0fQnwPToCZdxZWMF048Ijx0; expires=Mon, 05-Jul-2010 06:15:54 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=caefaaa5111365a9:TM=1262499354:LM=1262499354:S=N8A9rxJ85Y51RChl
+saved cookie: NID=30=Pyh275uJMkFAz2JYbAE7ZXFqWSBbA8FjvJl-bMAlm6Vg_lbZ6vgzMI64zaQSuEhjS-MFZfSFJ0-DpgmTpyQvGDn8SSr7uLh1iw__Q472F0fQnwPToCZdxZWMF048Ijx0
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=caefaaa5111365a9:TM=1262499354:LM=1262499354:S=N8A9rxJ85Y51RChl; NID=30=Pyh275uJMkFAz2JYbAE7ZXFqWSBbA8FjvJl-bMAlm6Vg_lbZ6vgzMI64zaQSuEhjS-MFZfSFJ0-DpgmTpyQvGDn8SSr7uLh1iw__Q472F0fQnwPToCZdxZWMF048Ijx0
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 1601 bytes
+Read 2389 bytes
+Read 3413 bytes
+Read 3440 bytes
+Read 4458 bytes
+Read 4852 bytes
+Read 5876 bytes
+Read 6900 bytes
+Read 7786 bytes
+Read 8805 bytes
+Read 9199 bytes
+Read 10223 bytes
+Read 11247 bytes
+Read 11813 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:15:54 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=caefaaa5111365a9:U=db8ddc855e51ec8e:TM=1262499354:LM=1262499354:S=1j92djG1uEu4-Fly; expires=Tue, 03-Jan-2012 06:15:54 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=caefaaa5111365a9:U=db8ddc855e51ec8e:TM=1262499354:LM=1262499354:S=1j92djG1uEu4-Fly
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2234 bytes
+Read 3258 bytes
+Read 3829 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:16:04 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3829
+response-header: set-cookie => PREF=ID=e1e4b2c06b65fee9:TM=1262499364:LM=1262499364:S=alVMWZ7eNOBKpyVb; expires=Tue, 03-Jan-2012 06:16:04 GMT; path=/; domain=.google.com, NID=30=rt55fi6bdzxXFWq50F7ovdO3fBRvVoMhxzbaAXR7mSuQDE01koq60S-yQpdT_NozSBBEPt2HWzeQlAM8ClOuxJOh87uSapyeMp0m7WyRou8SgJr3UeXLSWqTaw63jnBh; expires=Mon, 05-Jul-2010 06:16:04 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=e1e4b2c06b65fee9:TM=1262499364:LM=1262499364:S=alVMWZ7eNOBKpyVb
+saved cookie: NID=30=rt55fi6bdzxXFWq50F7ovdO3fBRvVoMhxzbaAXR7mSuQDE01koq60S-yQpdT_NozSBBEPt2HWzeQlAM8ClOuxJOh87uSapyeMp0m7WyRou8SgJr3UeXLSWqTaw63jnBh
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=e1e4b2c06b65fee9:TM=1262499364:LM=1262499364:S=alVMWZ7eNOBKpyVb; NID=30=rt55fi6bdzxXFWq50F7ovdO3fBRvVoMhxzbaAXR7mSuQDE01koq60S-yQpdT_NozSBBEPt2HWzeQlAM8ClOuxJOh87uSapyeMp0m7WyRou8SgJr3UeXLSWqTaw63jnBh
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 1601 bytes
+Read 2389 bytes
+Read 3413 bytes
+Read 3438 bytes
+Read 4456 bytes
+Read 5480 bytes
+Read 6268 bytes
+Read 7292 bytes
+Read 7783 bytes
+Read 8802 bytes
+Read 9196 bytes
+Read 10220 bytes
+Read 10614 bytes
+Read 11638 bytes
+Read 11813 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:16:04 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=e1e4b2c06b65fee9:U=21125cee9b9fe61d:TM=1262499364:LM=1262499364:S=_opzJNT55vVIS6yL; expires=Tue, 03-Jan-2012 06:16:04 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=e1e4b2c06b65fee9:U=21125cee9b9fe61d:TM=1262499364:LM=1262499364:S=_opzJNT55vVIS6yL
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3840 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:16:20 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3840
+response-header: set-cookie => PREF=ID=1efe06b53ad9361e:TM=1262499380:LM=1262499380:S=GS4QyNj5G-9Q9VLQ; expires=Tue, 03-Jan-2012 06:16:20 GMT; path=/; domain=.google.com, NID=30=Ores79nFL3w3Q3XPqX-0A_LTx5lQX6jVvrK_S7uVThfpj33L1najfUezsGzJVZ5D0sy5bxQGpnbgyANvtb0Ihwp4AduoSt_NuYritK2HBZl2zY1Zbl1dGlCW3FNawOWB; expires=Mon, 05-Jul-2010 06:16:20 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=1efe06b53ad9361e:TM=1262499380:LM=1262499380:S=GS4QyNj5G-9Q9VLQ
+saved cookie: NID=30=Ores79nFL3w3Q3XPqX-0A_LTx5lQX6jVvrK_S7uVThfpj33L1najfUezsGzJVZ5D0sy5bxQGpnbgyANvtb0Ihwp4AduoSt_NuYritK2HBZl2zY1Zbl1dGlCW3FNawOWB
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=1efe06b53ad9361e:TM=1262499380:LM=1262499380:S=GS4QyNj5G-9Q9VLQ; NID=30=Ores79nFL3w3Q3XPqX-0A_LTx5lQX6jVvrK_S7uVThfpj33L1najfUezsGzJVZ5D0sy5bxQGpnbgyANvtb0Ihwp4AduoSt_NuYritK2HBZl2zY1Zbl1dGlCW3FNawOWB
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 1601 bytes
+Read 2389 bytes
+Read 3413 bytes
+Read 3450 bytes
+Read 4468 bytes
+Read 4862 bytes
+Read 5886 bytes
+Read 6910 bytes
+Read 7790 bytes
+Read 8809 bytes
+Read 9203 bytes
+Read 10227 bytes
+Read 11251 bytes
+Read 11818 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:16:21 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=1efe06b53ad9361e:U=c6bb7c6b077e6ffe:TM=1262499380:LM=1262499381:S=YuuS6sxSstyfYwN0; expires=Tue, 03-Jan-2012 06:16:21 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=1efe06b53ad9361e:U=c6bb7c6b077e6ffe:TM=1262499380:LM=1262499381:S=YuuS6sxSstyfYwN0
+status: 200
+Net::HTTP::Get: /
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 422 bytes
+Read 816 bytes
+Read 1840 bytes
+Read 2864 bytes
+Read 3503 bytes
+Read 3846 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:17:04 GMT
+response-header: x-xss-protection => 0
+response-header: server => gws
+response-header: content-encoding => gzip
+response-header: content-length => 3846
+response-header: set-cookie => PREF=ID=5520d990c39f8ea9:TM=1262499424:LM=1262499424:S=iR_YzqBfE9uEeW-j; expires=Tue, 03-Jan-2012 06:17:04 GMT; path=/; domain=.google.com, NID=30=C73x2GvHwONrsXyPlRMWzY_F33uD2D_WzkyJmL4slhRegp6bkFDzAPkok7Jga3ioV3OE-cQTP_Ri8YA8uDbTQhnOn9V5pz258Q8kxt8IgSsU7UwRCx4KjMA6CoErg_eR; expires=Mon, 05-Jul-2010 06:17:04 GMT; path=/; domain=.google.com; HttpOnly
+gunzip body
+saved cookie: PREF=ID=5520d990c39f8ea9:TM=1262499424:LM=1262499424:S=iR_YzqBfE9uEeW-j
+saved cookie: NID=30=C73x2GvHwONrsXyPlRMWzY_F33uD2D_WzkyJmL4slhRegp6bkFDzAPkok7Jga3ioV3OE-cQTP_Ri8YA8uDbTQhnOn9V5pz258Q8kxt8IgSsU7UwRCx4KjMA6CoErg_eR
+status: 200
+Net::HTTP::Get: /search?hl=en&source=hp&q=Hello
+request-header: accept-language => en-us,en;q=0.5
+request-header: connection => keep-alive
+request-header: accept => */*
+request-header: accept-encoding => gzip,identity
+request-header: user-agent => Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/418 (KHTML, like Gecko) Safari/417.9.3
+request-header: cookie => PREF=ID=5520d990c39f8ea9:TM=1262499424:LM=1262499424:S=iR_YzqBfE9uEeW-j; NID=30=C73x2GvHwONrsXyPlRMWzY_F33uD2D_WzkyJmL4slhRegp6bkFDzAPkok7Jga3ioV3OE-cQTP_Ri8YA8uDbTQhnOn9V5pz258Q8kxt8IgSsU7UwRCx4KjMA6CoErg_eR
+request-header: referer => http://www.google.com/
+request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+request-header: host => www.google.com
+request-header: keep-alive => 300
+Read 577 bytes
+Read 971 bytes
+Read 1995 bytes
+Read 3019 bytes
+Read 3448 bytes
+Read 4466 bytes
+Read 4860 bytes
+Read 5884 bytes
+Read 6278 bytes
+Read 7302 bytes
+Read 7797 bytes
+Read 8816 bytes
+Read 9840 bytes
+Read 10628 bytes
+Read 11652 bytes
+Read 11827 bytes
+response-header: cache-control => private, max-age=0
+response-header: expires => -1
+response-header: content-type => text/html; charset=UTF-8
+response-header: date => Sun, 03 Jan 2010 06:17:04 GMT
+response-header: x-xss-protection => 0
+response-header: content-encoding => gzip
+response-header: server => gws
+response-header: set-cookie => SS=Q0=SGVsbG8; path=/search, PREF=ID=5520d990c39f8ea9:U=8e3a56d249cb80e4:TM=1262499424:LM=1262499424:S=7z_QCOGQ61ZMHj86; expires=Tue, 03-Jan-2012 06:17:04 GMT; path=/; domain=.google.com
+response-header: transfer-encoding => chunked
+gunzip body
+saved cookie: SS=Q0=SGVsbG8
+saved cookie: PREF=ID=5520d990c39f8ea9:U=8e3a56d249cb80e4:TM=1262499424:LM=1262499424:S=7z_QCOGQ61ZMHj86
+status: 200

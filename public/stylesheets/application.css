@@ -1,0 +1,245 @@
+body {
+  background-color: white;
+  margin-top: 5px;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 14px; }
+
+a {
+  color: #0000FF;
+  text-decoration: none; }
+  a img {
+    border: none; }
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+#container {
+  width: 1020px;
+  margin: 0px auto;
+  background: #fff;
+  padding: 5px 10px 20px 10px; }
+
+#flash_notice,
+#flash_error {
+  padding: 5px 8px;
+  margin: 10px 0; }
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6; }
+
+#flash_error {
+  background-color: #FCC;
+  border: solid 1px #C66; }
+
+.fieldWithErrors {
+  display: inline; }
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #errorExplanation h2 {
+    text-align: left;
+    padding: 5px 5px 5px 15px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #c00;
+    color: #fff; }
+  #errorExplanation p {
+    color: #333;
+    margin-bottom: 0;
+    padding: 8px; }
+  #errorExplanation ul {
+    margin: 2px 24px; }
+    #errorExplanation ul li {
+      font-size: 12px;
+      list-style: disc; }
+
+#footer_wrap #footer {
+  width: 1020px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 5px 10px;
+  margin-top: 20px;
+  background: #3A94DE;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+#search_box {
+  min-width: 1015px; }
+
+#search_details {
+  padding: 0em 1em; }
+
+#search_text {
+  margin: 1em auto;
+  width: 71%;
+  height: 80px; }
+  #search_text a {
+    color: #4B7399; }
+  #search_text a:hover {
+    text-decoration: underline; }
+
+#search_options {
+  margin: 1em 0em; }
+
+#site_nav {
+  margin-bottom: 1em;
+  width: 1013px;
+  z-index: -1; }
+  #site_nav ul li {
+    position: relative;
+    float: left; }
+    #site_nav ul li a {
+      padding: 10px 5px;
+      display: block;
+      float: left;
+      text-decoration: none; }
+    #site_nav ul li span {
+      width: 17px;
+      height: 42px;
+      float: right;
+      background: url("/images/subnav_btn.gif") no-repeat center top; }
+      #site_nav ul li span .subhover {
+        background-position: center bottom;
+        cursor: pointer; }
+    #site_nav ul li .subnav {
+      list-style: none;
+      position: absolute;
+      left: 0;
+      top: 42px;
+      background: #eee;
+      margin: 0;
+      padding: 0;
+      display: none;
+      float: left;
+      width: 170px;
+      border: 1px solid #5691cc; }
+      #site_nav ul li .subnav li {
+        margin: 0;
+        padding: 0;
+        clear: both;
+        width: 170px; }
+
+#trulia, #zillow, #yahoo, #realtor, #century21, #homes {
+  margin: 1em 0em 0em 0em;
+  padding: 0; }
+  #trulia iframe, #zillow iframe, #yahoo iframe, #realtor iframe, #century21 iframe, #homes iframe {
+    width: 100%;
+    height: 4500px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4B7399; }
+
+#search_search_text {
+  font: normal normal normal 17px/normal arial, sans-serif; }
+
+#search_submit {
+  width: 90px;
+  vertical-align: bottom; }
+
+#search_bar {
+  height: 160px;
+  margin: 0 auto 1em; }
+
+#settings {
+  padding: 1em 0em;
+  height: 80px;
+  width: 100%; }
+
+#tabs {
+  width: 80%;
+  margin: 0 auto; }
+  #tabs .site_row {
+    width: 250px;
+    float: left; }
+  #tabs #sites {
+    margin: 0 auto;
+    width: 500px; }
+    #tabs #sites .set_tabs {
+      width: 250px;
+      margin: .25em 0;
+      float: left; }
+
+#logo {
+  height: 160px;
+  margin-right: 1em; }
+  #logo #logo_image {
+    width: 180px;
+    margin: 0 auto; }
+
+.search {
+  width: 180px;
+  float: left; }
+
+.logo_left {
+  float: left; }
+
+.search_bar_right {
+  float: right; }
+
+.ac_results {
+  padding: 0px;
+  border: 1px solid WindowFrame;
+  background-color: Window;
+  overflow: hidden; }
+  .ac_results ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .ac_results iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 3000px;
+    height: 3000px; }
+  .ac_results li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font: menu;
+    font-size: 12px;
+    overflow: hidden; }
+
+.ac_loading {
+  background: Window url('./ajax-loader.gif') right center no-repeat; }
+
+.ac_over {
+  background-color: Highlight;
+  color: HighlightText; }
+
+.removed {
+  display: none; }
+
+.comment {
+  font-style: italic;
+  font-size: 70%; }
+
+.loading {
+  position: absolute;
+  z-index: 100; }
+
+.set_opacity {
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter: alpha(opacity=70); }
+
+#donate {
+  float: right !important;
+  margin-top: 10px; }
+
+#g_ad {
+  text-align: center; }

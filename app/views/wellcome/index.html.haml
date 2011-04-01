@@ -1,0 +1,53 @@
+:javascript
+	$(function() {
+		iframeSizeControll();
+		$("#search_max_price").val("$100,000,000");
+		address_auto_complete();
+		callAjax();
+		navBarAnimate();
+		toggleSearchText();
+		navigation();
+		searchKeyPress();
+	});
+	
+#search_box
+	#logo.span-5
+		%a{:href => "/"}
+			#logo_image
+	#search_bar
+		#tabs
+			- form_for :search, :url => { :controller => "search", :action => "search_properties" }, :html => {:class => "ajaxForm"} do |f|
+				#search_details
+					#search_text.span-10
+						= f.text_field :search_text, {:size => 25, :class => "textfield idleField", :value => "ZipCode, or City and State"}
+						= f.submit "", :id => "search_submit"
+					#search_options.span-9.last
+						.span-8.last.prepend-1
+							= "Price Range: #{select_tag 'search[min_price]', options_for_select(Search::MIN_PRICES)} to"
+							= select_tag "search[max_price]", options_for_select(Search::MAX_PRICES)
+						.span-3.prepend-2= "Beds: #{select_tag 'search[bed_room]', options_for_select(Search::BEDROOMS)}"
+						.span-3.last= "Baths: #{select_tag 'search[bath_room]', options_for_select(Search::BATHROOMS)}"
+					.clear
+				#settings.span-24
+					%a{:href => "javascript:void(0)", :id => "back"}
+						#back.span-1
+					%a{:href => "javascript:void(0)", :id => "forward"}
+						#forward.span-1
+					#nav
+						%ul{:id => "navigation"}
+							%li
+								=link_to "", "search/get_url_text/trulia", {:class => "trulia"}
+								=hidden_field_tag 'search[trulia]'
+							%li
+								=link_to "", "search/get_url_text/zillow", {:class => "zillow"}
+							%li
+								=link_to "", "search/get_url_text/realtor", {:class => "realtor"}
+							%li
+								=link_to "", "search/get_url_text/yahoo", {:class => "yahoo"}
+							%li
+								=link_to "", "search/get_url_text/century21", {:class => "century21"}
+							%li
+								=link_to "", "search/get_url_text/homes", {:class => "homes"}
+						.clear
+	.loading.removed
+		=image_tag "ajax-loader.gif"

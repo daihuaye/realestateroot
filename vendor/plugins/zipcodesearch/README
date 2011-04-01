@@ -1,0 +1,28 @@
+ZipCodeSearch
+=============
+This is the location search code that powers http://walkingboss.org.  It
+includes some free zip code data and an example controller/view--everything you
+need to get you up and running in about 10 minutes. If you are going to use
+this in a real application, I recommend buying commercial zip code data from
+http://zipcodeworld.com or somewhere similar. 
+
+Full credit for the geodetic algorithms must go to Thomas Kurek, who posted a great
+article, with C# code, on CodeProject.com about a year and a half ago (see:
+http://www.codeproject.com/dotnet/Zip_code_radius_search.asp).
+
+Installation
+============
+Very quick version:
+  > ruby script/plugin install  svn://rubyforge.org/var/svn/zipcodesearch/trunk
+  > ruby script/generate zip_code_search ZipCode
+  > rake migrate  # This will take a looooong time!* 
+
+You should then be able to use the example at:
+http://localhost:3000/zip_code_search_example/index.  
+
+Please see: http://zipcodesearch.rubyforge.org for more info.
+
+* If you want the initial migration to go faster, use your database's native
+  CSV importing functionality to import the file reference in the migration.
+  Since the migration attempts to be database agnostic, it will parse every one
+  of the 45,000 lines and insert a row using ActiveRecord.

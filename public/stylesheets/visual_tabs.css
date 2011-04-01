@@ -1,0 +1,19 @@
+body {
+  background: transparent url("/images/new_layout/header_bg_slice.gif") repeat-x; }
+
+.title {
+  margin-bottom: 5px; }
+  .title h1 {
+    color: white;
+    padding: 10px 0 0 0; }
+
+ul {
+  font-weight: bold;
+  margin: 20px 0; }
+  ul li {
+    font-weight: normal;
+    margin-left: 15px;
+    list-style-type: decimal; }
+
+#main {
+  min-height: 100%; }
