@@ -4,4 +4,4 @@ The idea of creating this website is because I see the idea of torrentroot.com p
 So you don't need to spend time search other torrent sites to find your desired items. And the realestateroot can provide the information by searching from multiple reals states sites, such as trulia, zillow, yahoo, century21, realtor, and homes. 
 
 ##Credit
-[Daifu Ye](https://github.com/daifu)
+[Daifu Ye](https://github.com/daifu) is core developer for this project.
